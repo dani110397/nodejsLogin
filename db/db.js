@@ -2,10 +2,10 @@ const sql = require('mssql');
 
 // MSSQL Konfiguration
 const config = {
-    user: 'sa',
-    password: 'Daniellayer11',
-    server: "NB-Layer\\SQLEXPRESS",
-    database: 'NodejsLogin',
+    user: '',
+    password: '',
+    server: "",
+    database: '',
     options: {
     //   encrypt: false, // Verschlüsselung bei lokalen Verbindungen nicht erforderlich
       trustServerCertificate: true // Bei lokalen Verbindungen erforderlich
